@@ -1,0 +1,15 @@
+---
+title: "Week 10: Fish Analysis"
+format: gfm
+editor: visual
+---
+
+## Fish Scale Analysis
+
+Load the tidyverse and the dataset.
+
+```{r}
+library(tidyverse)
+
+fish_data <- read.csv("")
+```

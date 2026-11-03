@@ -45,6 +45,10 @@ You will not actually be writing anything in this document for your assignment. 
 
 ### 1. Set Up Git (15 points)
 
+```{r}
+#Done!
+```
+
 We will do this together in class.
 
 This question assumes that you have successfully installed `git` on your device and have an account with GitHub.
@@ -71,6 +75,10 @@ f.  Click `Create Project`.
 g.  Check to make sure you have a `Git` tab in the upper right window.
 
 ### 2. First Solo Commit (15 points)
+
+```{r}
+#done! Had to fix an error I made in class
+```
 
 In `fish_analysis.qmd` (which we started in class), add some text about the code chunk(s) describing what the code does in each code chunk.
 

@@ -11,5 +11,18 @@ Load the tidyverse and the dataset.
 ```{r}
 library(tidyverse)
 
-fish_data <- read.csv("")
+fish_data <- read_csv("../data/Gaeta_etal_CLC_data.xlsx")
+```
+
+```{r}
+head(fish_data)
+```
+
+Summary stats for the fish scale length
+
+```{r}
+fish_data |>
+  summarise(min_scale_length = min(scalelength, na.rm = T), 
+            max_scale_length = max(scalelength, na.rm = T))
+#this will not run 
 ```

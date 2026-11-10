@@ -37,3 +37,8 @@ fish_data_filtered <- fish_data |>
 nrow(fish_data_filtered)
 write_csv(fish_data_filtered, "../data/fish_data_filtered.csv")
 ```
+
+```{r}
+ggplot(fish_data, aes(x = scalelength)) +
+  geom_histogram()
+```
